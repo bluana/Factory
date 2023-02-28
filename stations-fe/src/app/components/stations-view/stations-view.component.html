@@ -1,0 +1,13 @@
+<div class="header">Stations</div>
+<div class="stations-container">
+  <div
+    *ngFor="let station of stations"
+    class="station-box"
+    [class.red]="station.state === 0"
+    [class.yellow]="station.state === 1"
+    [class.green]="station.state === 2"
+    (click)="openStationDetails(station.id)"
+  >
+    {{ station.id }}
+  </div>
+</div>

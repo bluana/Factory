@@ -1,0 +1,38 @@
+.header {
+  font-size: 10vw;
+  color: #2f2f2f;
+  margin: 80px 20px 40px 20px;
+  padding: 20px;
+  text-align-last: center;
+}
+
+.stations-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 10vw;
+  color: #2f2f2f;
+}
+
+.station-box {
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10vw;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+.red {
+  background-color: #d64045;
+  border: 1px solid #651518;
+}
+
+.yellow {
+  background-color: #fde74c;
+  border: 1px solid #796b01;
+}
+
+.green {
+  background-color: #44af69;
+  border: 1px solid #225835;
+}
