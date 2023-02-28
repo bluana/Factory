@@ -1,0 +1,20 @@
+<div *ngIf="station" class="station-container">
+  <div>Station {{ station.id }}</div>
+  <div class="station-box" [ngClass]="statusBoxes[station.state][0]"></div>
+
+  <div class="select">Select next state</div>
+  <div class="station-change-container">
+    <div
+      *ngIf="station"
+      class="station-change"
+      [ngClass]="statusBoxes[station.state][1]"
+      (click)="updateState(statusBoxes[station.state][1])"
+    ></div>
+    <div
+      *ngIf="station"
+      class="station-change"
+      [ngClass]="statusBoxes[station.state][2]"
+      (click)="updateState(statusBoxes[station.state][2])"
+    ></div>
+  </div>
+</div>

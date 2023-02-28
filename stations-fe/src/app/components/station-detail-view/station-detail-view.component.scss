@@ -1,0 +1,50 @@
+.station-container {
+  justify-content: center;
+  color: #2f2f2f;
+  flex-wrap: wrap;
+  font-size: 5vw;
+  margin: 50px 20px;
+}
+
+.station-box {
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 40vw;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.station-change-container {
+  display: flex;
+  justify-content: center;
+}
+
+.station-change {
+  box-sizing: border-box;
+  padding: 15vw;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.red {
+  background-color: #d64045;
+  border: 1px solid #651518;
+}
+
+.yellow {
+  background-color: #fde74c;
+  border: 1px solid #796b01;
+}
+
+.green {
+  background-color: #44af69;
+  border: 1px solid #225835;
+}
+
+.select {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
